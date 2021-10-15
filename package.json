@@ -1,0 +1,19 @@
+{
+  "name": "tp-lambda-dynamo",
+  "version": "1.0.0",
+  "description": "Trabajo practico numero 3 de computacion en la nube. UTN FRM 2021",
+  "main": "app.js",
+  "author": "Rodrigo Cespedes",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1005.0",
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
