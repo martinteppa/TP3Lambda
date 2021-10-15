@@ -10,12 +10,15 @@ npm install
 sam local start-api --docker-network awslocal
 ```
 
-Endpoints:
+# Endpoints:
 
-GET /envios/pendientes
-PUT /envios/{idEnvio}/entregado
-POST /envios
-Con un body de la forma:
+# GET /envios/pendientes
+
+# PUT /envios/{idEnvio}/entregado
+
+# POST /envios
+
+# Body:
 
 ```bash
 {
