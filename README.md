@@ -12,13 +12,13 @@ sam local start-api --docker-network awslocal
 
 # Endpoints:
 
-# GET /envios/pendientes
+### GET /envios/pendientes
 
-# PUT /envios/{idEnvio}/entregado
+### PUT /envios/{idEnvio}/entregado
 
-# POST /envios
+### POST /envios
 
-# Body:
+### Body:
 
 ```bash
 {
